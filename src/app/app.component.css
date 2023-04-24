@@ -1,0 +1,390 @@
+
+.container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 2%;
+}
+
+.container>div {
+  font-family: sans-serif;
+  font-style: italic;
+  font-size: 14px;
+  font-weight: 700;
+}
+
+.nav-container {
+  position: fixed;
+  min-width: 100%;
+  z-index: 999;
+  margin-bottom: 10%;
+  background: white;
+  box-shadow: 0px 1px 2px black;
+}
+
+nav {
+  width: 50%;
+  align-items: center;
+}
+
+nav ul {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+nav ul li {
+  list-style-type: none;
+  margin: 0 8%;
+}
+
+nav ul li a {
+  color: black;
+  text-decoration: none;
+}
+
+.btn {
+  background-color: #505d78;
+  color: white;
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 19px;
+}
+
+#intro {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  background-color: #505d78;
+  min-height: 50vh;
+  margin-bottom: 10%;
+  position: relative;
+  padding-top: 5%;
+  top: 4vh;
+}
+
+#intro .first-child {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-left: 5%;
+  width: 100%;
+  max-width: 500px;
+  padding-top: 20px;
+}
+
+#intro .first-child h1 {
+  font-family: "Times New Roman", Times, serif;
+  font-weight: 700;
+  color: white;
+}
+
+#intro .first-child .help-design {
+  background-color: #d89ab0;
+  color: white;
+  border-radius: 20px;
+  padding: 2px;
+}
+
+#intro .first-child .better-design {
+  background-color: #c5cb93;
+  color: white;
+  border-radius: 20px;
+  padding: 2px;
+}
+
+#intro .first-child p {
+  color: white;
+}
+
+#intro .first-child .btn-primary {
+  background-color: white;
+  color: #505d78;
+}
+
+#intro .second-child {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  max-width: 600px;
+  padding-bottom: 20px;
+}
+
+#intro .second-child>div {
+  border: 1px solid white;
+  width: 90%;
+  max-width: 300px;
+  height: 300px;
+  margin: 0 auto;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#intro .second-child>div>div {
+  border: 1px solid white;
+  width: 90%;
+  max-width: 280px;
+  height: 260px;
+  margin: 0 auto;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#intro .second-child>div>div>div {
+  border: 1px solid white;
+  width: 90%;
+  max-width: 250px;
+  height: 240px;
+  margin: 0 auto;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#intro .second-child>div>div>div>span {
+  border: 1px solid white;
+  width: 90%;
+  max-width: 200px;
+  height: 200px;
+  margin: 0 auto;
+  border-radius: 50%;
+background: url("/assets/img/donate.jpg");
+  background-size: cover;
+}
+
+.section-container {
+  padding: 5% 10%;
+  font-family: sans-serif;
+  text-transform: capitalize;
+  position: relative;
+  font-family: sans-serif;
+}
+
+.for-border {
+  border-bottom: 4px solid pink;
+}
+
+.section-container h6 {
+  font-weight: 600;
+}
+
+.section-container .btn-primary {
+  background-color: white;
+  color: #505d78;
+  border: 1px solid #505d78;
+  position: absolute;
+  top: 95%;
+  left: 70%;
+  z-index: 5;
+}
+
+.flex-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  font-family: sans-serif;
+}
+
+.flex-container>div {
+  width: 100%;
+  max-width: 500px;
+}
+
+.flex-container .img-container {
+  width: 60%;
+  max-width: 300px;
+  height: 250px;
+  background: url("/assets/img/donate.jpg");
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+  position: relative;
+  border: 5px solid rgba(249, 199, 217, 1);
+}
+
+.flex-container .img-container>span {
+  display: block;
+  width: 75%;
+  max-width: 300px;
+  height: 70%;
+  margin: 0 auto;
+  position: absolute;
+  left: 50%;
+  top: 40%;
+  background: url("/assets/img/donate.jpg");
+  background-size: cover;
+  border: 5px solid rgba(216, 154, 176, 1);
+}
+
+.flex-container .btn-primary {
+  background-color: #505d78;
+  color: white;
+  border: 1px solid #505d78;
+  position: relative;
+  top: -5%;
+  left: 0%;
+}
+
+#section-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  width: 90%;
+  margin: 0 auto;
+  font-family: sans-serif;
+}
+
+#section-container>div {
+  width: 100%;
+  max-width: 800p;
+}
+
+#flex-section-container {
+  background-color: #505d78;
+  font-family: sans-serif;
+}
+
+#flex-section-container .flex-section {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  width: 90%;
+  margin: 0 auto;
+}
+
+#flex-section-container .flex-section>* {
+  width: 100%;
+  max-width: 200px;
+  min-height: 200px;
+  margin: 5%;
+  padding: 10px;
+  background-color: white;
+}
+
+#flex-section-container .flex-section>div>span {
+  padding-bottom: 20px;
+  display: block;
+}
+
+#flex-section-container .flex-section>.active {
+  background-color: #d89ab0;
+}
+
+#flex-section-container>.section-header {
+  padding: 10%;
+  padding-bottom: 0;
+  margin-left: 4%;
+}
+
+#flex-section-container>div>h2,
+#flex-section-container>div>p {
+  max-width: 600px;
+  margin-bottom: 20px;
+  color: white;
+}
+
+#founder-section {
+  max-width: 600px;
+  margin: 0 auto;
+  text-align: center;
+  padding-top: 40px;
+}
+
+#founder-section>* {
+  display: block;
+  margin-bottom: 50px;
+}
+
+#founder-section span {
+  display: block;
+  width: 100px;
+  max-width: 90%;
+  height: 100px;
+  border-radius: 50%;
+  background: url("/assets/img/donate.jpg");
+  background-size: cover;
+  margin: 0 auto;
+}
+
+footer {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 10px;
+  background-color: #444444;
+  color: white;
+  padding: 3%;
+  font-family: sans-serif;
+}
+
+footer .first-child {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+footer .first-child>.form-container {
+  width: 100%;
+  max-width: 500px;
+  margin: 4px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-color: #d89ab0;
+  border-radius: 30px;
+  padding: 5% 3%;
+  color: white;
+}
+
+footer .location {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+  width: 100%;
+  max-width: 500px;
+  margin: 4px;
+}
+
+footer .first-child>div form>* {
+  color: white;
+}
+
+footer form input {
+  border: none;
+  padding: 2%;
+  border-bottom: 1px solid rgb(255, 253, 253);
+  background-color: transparent;
+  color: white;
+  width: 80%;
+  display: block;
+}
+
+footer .copy-right {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  text-align: center;
+  margin-top: 40px;
+}
+
+footer .copy-right>div {
+  width: 100%;
+  max-width: 600px;
+}
+
+.flex-section>div {
+  box-shadow: 2px 2px 2px rgb(25, 24, 24), -1px -1px 2px black;
+}
